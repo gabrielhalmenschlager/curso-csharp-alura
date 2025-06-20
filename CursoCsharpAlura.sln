@@ -1,11 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36212.18 d17.14
+VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrimeiroProjeto", "PrimeiroProjeto", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroProjeto", "PrimeiroProjeto\PrimeiroProjeto.csproj", "{C799A9B6-D25C-4BED-B695-B7C9BA01490A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScreenSound", "ScreenSound", "{D273AAFC-634F-4545-9A21-6CCF98D7E5CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound", "OrientacaoObjetos\ScreenSound.csproj", "{B8C8FC15-A23E-4568-8958-AFE681FBAF70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContaBancaria", "ContaBancaria", "{401C5A9C-1AAA-402E-B827-951EC6F0188E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancaria", "ContaBancaria\ContaBancaria.csproj", "{02F0270E-A300-4E72-9420-1165A78F05D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MetodosCarros", "MetodosCarros", "{D8784464-83CF-4EEB-907F-ADA5710CB8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosCarros", "MetodosCarros\MetodosCarros.csproj", "{0A3B8834-A798-4DBE-817D-B2B9828E58AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +29,27 @@ Global
 		{C799A9B6-D25C-4BED-B695-B7C9BA01490A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C799A9B6-D25C-4BED-B695-B7C9BA01490A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C799A9B6-D25C-4BED-B695-B7C9BA01490A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C8FC15-A23E-4568-8958-AFE681FBAF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C8FC15-A23E-4568-8958-AFE681FBAF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C8FC15-A23E-4568-8958-AFE681FBAF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C8FC15-A23E-4568-8958-AFE681FBAF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F0270E-A300-4E72-9420-1165A78F05D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F0270E-A300-4E72-9420-1165A78F05D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F0270E-A300-4E72-9420-1165A78F05D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F0270E-A300-4E72-9420-1165A78F05D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3B8834-A798-4DBE-817D-B2B9828E58AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3B8834-A798-4DBE-817D-B2B9828E58AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3B8834-A798-4DBE-817D-B2B9828E58AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3B8834-A798-4DBE-817D-B2B9828E58AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C799A9B6-D25C-4BED-B695-B7C9BA01490A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B8C8FC15-A23E-4568-8958-AFE681FBAF70} = {D273AAFC-634F-4545-9A21-6CCF98D7E5CA}
+		{02F0270E-A300-4E72-9420-1165A78F05D7} = {401C5A9C-1AAA-402E-B827-951EC6F0188E}
+		{0A3B8834-A798-4DBE-817D-B2B9828E58AC} = {D8784464-83CF-4EEB-907F-ADA5710CB8ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D3F9D5F-1077-41B4-822B-3095158D9386}
